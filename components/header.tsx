@@ -28,7 +28,7 @@ export function Header() {
                                         d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 1 1 16 0Z M12 10a2 2 0 1 1 0-4 2 2 0 0 1 0 4Z"
                                     />
                                 </svg>
-                                <span>BMW Минеральные воды</span>
+                                <span>BMW Ставрополь</span>
                             </div>
                             <div className={styles.contactItem}>
                                 <svg className={styles.icon} viewBox="0 0 24 24" width="24" height="24">

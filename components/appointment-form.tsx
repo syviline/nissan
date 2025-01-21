@@ -25,7 +25,7 @@ export function AppointmentForm() {
                 <div className={styles.formGroup}>
                     <label className={styles.label}>Дилерский центр, дата и время визита</label>
                     <select className={styles.select} defaultValue="mineralnye">
-                        <option value="mineralnye">BMW Минеральные воды</option>
+                        <option value="mineralnye">BMW Ставрополь</option>
                     </select>
                     <input type="date" value={date} onChange={(e) => setDate(e.target.value)} className={styles.input}/>
                     <input type="time" className={styles.input}/>
