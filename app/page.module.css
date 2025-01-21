@@ -1,0 +1,93 @@
+.hero {
+  position: relative;
+  height: 600px;
+  background: url("/bmw.jpg") no-repeat center center/cover;
+  padding: 4rem 0;
+}
+
+.heroContent {
+  max-width: 48rem;
+}
+
+.heroTitle {
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: -0.025em;
+  margin-bottom: 1.5rem;
+}
+
+.heroSubtitle {
+  font-size: 1.5rem;
+}
+
+.sliderDots {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 0.5rem;
+}
+
+.dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: var(--gray-300);
+  border: none;
+  padding: 0;
+}
+
+.dot.active {
+  background-color: var(--gray-900);
+}
+
+.services {
+  padding: 4rem 0;
+}
+
+.servicesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.sectionTitle {
+  font-size: 2.25rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.advantages {
+  background-color: var(--gray-50);
+  padding: 4rem 0;
+}
+
+.advantagesText {
+  max-width: 48rem;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.125rem;
+}
+
+.appointment {
+  padding: 4rem 0;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: auto;
+    min-height: 400px;
+  }
+
+  .heroTitle {
+    font-size: 2rem;
+  }
+
+  .heroSubtitle {
+    font-size: 1.25rem;
+  }
+}
+
