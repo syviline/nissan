@@ -15,8 +15,8 @@ export default function Home() {
                         <ServiceSection title="СПЕЦПРЕДЛОЖЕНИЯ" image="/bmw2.webp" href="/special-offers"/>
                     </div>
                     <div className={styles.servicesGrid}>
-                        <ServiceSection title="СЕРВИС" image="/bmw3.webp" href="/service"/>
-                        <ServiceSection title="СПЕЦПРЕДЛОЖЕНИЯ" image="/bmw4.webp" href="/special-offers"/>
+                        <ServiceSection title="ЗАПАСНЫЕ ЧАСТИ И АКСЕССУАРЫ" image="/bmw3.webp" href="/parts"/>
+                        <ServiceSection title="ГАРАНТИЯ И ПОДДЕРЖКА" image="/bmw4.webp" href="/guarantee"/>
                     </div>
                 </div>
             </section>

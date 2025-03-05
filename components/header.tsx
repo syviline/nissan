@@ -48,7 +48,7 @@ export function Header() {
                     <nav className={styles.nav}>
                         <ul className={styles.navList}>
                             <li>
-                                <Link href="/service">СЕРВИС</Link>
+                                <Link href="/service/service">СЕРВИС</Link>
                             </li>
                             <li>
                                 <Link href="/special-offers">СПЕЦПРЕДЛОЖЕНИЯ</Link>
@@ -58,9 +58,6 @@ export function Header() {
                             </li>
                             <li>
                                 <Link href="/warranty">ГАРАНТИЯ И ПОДДЕРЖКА</Link>
-                            </li>
-                            <li>
-                                <Link href="/about">О КОМПАНИИ</Link>
                             </li>
                         </ul>
                     </nav>

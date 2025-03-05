@@ -14,16 +14,16 @@ export function Footer() {
             <h3 className={styles.columnTitle}>СЕРВИС</h3>
             <ul className={styles.columnList}>
               <li>
-                <Link href="/service/body">Кузовной ремонт</Link>
+                <Link href="/service/service.tsx/body">Кузовной ремонт</Link>
               </li>
               <li>
-                <Link href="/service/warranty">Обещания BMW</Link>
+                <Link href="/service/service.tsx/warranty">Обещания BMW</Link>
               </li>
               <li>
-                <Link href="/service/appointment">Запись на сервис</Link>
+                <Link href="/service/service.tsx/appointment">Запись на сервис</Link>
               </li>
               <li>
-                <Link href="/service/tradein">Подменный автомобиль</Link>
+                <Link href="/service/service.tsx/tradein">Подменный автомобиль</Link>
               </li>
             </ul>
           </div>
