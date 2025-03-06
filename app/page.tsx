@@ -9,7 +9,7 @@ export default function Home() {
 
             <section className={styles.services}>
                 <div className="container">
-                    <h2 className={styles.sectionTitle}>Купить новый автомобиль BMW</h2>
+                    <h2 className={styles.sectionTitle}>Ознакомьтесь с нашими предложениями</h2>
                     <div className={styles.servicesGrid}>
                         <ServiceSection title="СЕРВИС" image="/bmw1.png" href="/service"/>
                         <ServiceSection title="СПЕЦПРЕДЛОЖЕНИЯ" image="/bmw2.webp" href="/special-offers"/>
